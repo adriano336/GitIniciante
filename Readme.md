@@ -10,3 +10,6 @@ git shortlog -sn
 
 git diff
 git diff --name-only
+
+git reset HEAD<fileName> //Remover arquivo staged (após add)
+git checkout <filename> //Desfazer alteração do arquivo antes do add
