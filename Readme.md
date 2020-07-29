@@ -33,3 +33,6 @@ git checkout -D '<nomeBranch>'
 
 //Rebase
 na master: git rebase <branch>
+
+//Criar arquivo .gitignore
+<editor> .gitignore. Ex: code .gitignore
