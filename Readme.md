@@ -19,5 +19,17 @@ git reset --soft <hash> //Escolher hash anterior ao commit a serem feitas a reve
 git reset --mixed <hash> //Mesma ação acima mas deixa os arquivos em estágio modified (pré add)
 git reset --hard <hash> //Mata toda alteração daquela hash. Reversão mais bruto.
 
-git remote add origin <url>
+git remote add origin <url><br>
 git remote -v
+
+//Criar branch
+git checkout -b '<nomeBranch>'
+
+//Excluir um branch
+git checkout -D '<nomeBranch>'
+
+//Merge
+//na master: git merge <branch>
+
+//Rebase
+na master: git rebase <branch>
