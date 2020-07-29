@@ -40,13 +40,13 @@ git checkout -b '[nomeBranch]'
 git checkout -D '[nomeBranch]'
 
 //Merge
-//na master: git merge '<branch>'
+//na master: git merge '[branch]'
 
 //Rebase
-na master: git rebase '<branch>'
+na master: git rebase '[branch]'
 
 //Criar arquivo .gitignore
-<editor> .gitignore.<br> Ex: code .gitignore
+[editor] .gitignore.<br> Ex: code .gitignore
 
 //Stash<br>
 git stash<br>
