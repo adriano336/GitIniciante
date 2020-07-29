@@ -36,3 +36,9 @@ na master: git rebase <branch>
 
 //Criar arquivo .gitignore
 <editor> .gitignore. Ex: code .gitignore
+
+//Stash
+git stash
+git stash aplly
+git stash list
+git stash clear
