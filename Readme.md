@@ -53,3 +53,14 @@ git stash<br>
 git stash aplly<br>
 git stash list<br>
 git stash clear<br>
+
+//Criando alias <br>
+git config --global alias.<font color=green>s</font> status => git status => git s <br>
+
+//Criando tags, releases<br>
+git tag -a 1.0.0 -m "readme finzalizado"<br>
+git push origin master --tags<br>
+
+
+
+
