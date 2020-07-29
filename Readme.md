@@ -60,6 +60,15 @@ git config --global alias.<font color=green>s</font> status => git status => git
 //Criando tags, releases<br>
 git tag -a 1.0.0 -m "readme finzalizado"<br>
 git push origin master --tags<br>
+//Lista as tags: git tag<br>
+
+git revert '[hash]'
+
+//Excluir branch no repositório remoto
+git tag -d 1.0.10 //Apaga localmente<br>
+git push origin :'[branch ou tag]'<br>
+git push origin :1.0.10 //Apaga remoto
+
 
 
 
