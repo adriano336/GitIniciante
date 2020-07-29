@@ -46,7 +46,7 @@ git checkout -D '[nomeBranch]'
 na master: git rebase '[branch]'
 
 //Criar arquivo .gitignore
-[editor] .gitignore.<br> Ex: code .gitignore
+'[editor]' .gitignore.<br> Ex: code .gitignore
 
 //Stash<br>
 git stash<br>
