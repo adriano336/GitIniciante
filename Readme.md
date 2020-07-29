@@ -4,7 +4,7 @@ Primeiro arquivo do git
 
 git status
 <br>
-git add '<file>'
+git add '[file]'
 <br>
 git commit -m "mensagem"
 <br>
